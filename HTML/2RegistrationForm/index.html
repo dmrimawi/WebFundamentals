@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Registration Form</title>
+    <meta name="description" content="This page contains a registration form">
+</head>
+
+<body>
+    <h2>My Registration Form</h2>
+    <form>
+        <table>
+            <tr>
+                <td><label for="firstname">First Name: </label></td>
+                <td><input type="text" id="firstname" name="firstname"></td>
+            </tr>
+            <tr>
+                <td><label for="lastname">Last Name: </label></td>
+                <td><input type="text" id="lastname" name="lastname"></td>
+            </tr>
+            <tr>
+                <td><label for="email">Email: </label></td>
+                <td><input type="email" id="email" name="email"></td>
+            </tr>
+            <tr>
+                <td><label for="password">Password: </label></td>
+                <td><input type="password" id="password" name="password"></td>
+            </tr>
+            <tr>
+                <td><label for="passwordC">PW Confirm: </label></td>
+                <td><input type="password" id="passwordC" name="passwordC"></td>
+            </tr>
+            <tr>
+                <td> <label for="birthday">Birthday: </label></td>
+                <td><input type="date" id="birthday" name="birthday"></td>
+            </tr>
+        </table>
+        <input type="radio" id="male" name="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="female">
+        <label for="female">Female</label>
+        <input type="radio" id="other" name="other">
+        <label for="other">Other</label>
+        <br>
+        <p>A short description about yourself</p>
+        <textarea name="desc" id="desc"> </textarea>
+        <br>
+        <label for="lang">Favarite Language: </label>
+        <select>
+            <option value="JavaScript">JavaScript</option>
+            <option value="Python">Python</option>
+        </select>
+        <br>
+        <input type="submit">
+    </form>
+</body>
+
+</html>
