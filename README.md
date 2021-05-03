@@ -1,8 +1,8 @@
 # WebFundamentals
 Web Fundamentals assignments 
-_Languages _used
-HTML
+_Languages used_
+__HTML
 JavaScript
 CSS
 JQuery
-MySQL
+MySQL__
